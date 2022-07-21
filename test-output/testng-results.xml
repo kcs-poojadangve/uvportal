@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-21T15:38:58 IST" name="Default suite" finished-at="2022-07-21T15:39:12 IST" duration-ms="14694">
+    <groups>
+    </groups>
+    <test started-at="2022-07-21T15:38:58 IST" name="Default test" finished-at="2022-07-21T15:39:12 IST" duration-ms="14694">
+      <class name="org.uvportal.tests.TestACCESSTOKEN">
+        <test-method is-config="true" signature="init()[pri:0, instance:org.uvportal.tests.TestACCESSTOKEN@5a9f4771]" started-at="2022-07-21T15:38:58 IST" name="init" finished-at="2022-07-21T15:38:58 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testGETAccessToken()[pri:0, instance:org.uvportal.tests.TestACCESSTOKEN@5a9f4771]" started-at="2022-07-21T15:38:58 IST" name="testGETAccessToken" finished-at="2022-07-21T15:39:02 IST" duration-ms="3475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGETAccessToken -->
+      </class> <!-- org.uvportal.tests.TestACCESSTOKEN -->
+      <class name="org.uvportal.tests.TestGETProfile">
+        <test-method is-config="true" signature="init()[pri:0, instance:org.uvportal.tests.TestGETProfile@176b75f7]" started-at="2022-07-21T15:39:02 IST" name="init" finished-at="2022-07-21T15:39:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testGETProfileRequest()[pri:0, instance:org.uvportal.tests.TestGETProfile@176b75f7]" started-at="2022-07-21T15:39:02 IST" name="testGETProfileRequest" finished-at="2022-07-21T15:39:05 IST" duration-ms="3215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGETProfileRequest -->
+      </class> <!-- org.uvportal.tests.TestGETProfile -->
+      <class name="org.uvportal.tests.TestVehicleServices">
+        <test-method is-config="true" signature="init()[pri:0, instance:org.uvportal.tests.TestVehicleServices@409c54f]" started-at="2022-07-21T15:39:06 IST" name="init" finished-at="2022-07-21T15:39:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testVehicleServices()[pri:0, instance:org.uvportal.tests.TestVehicleServices@409c54f]" started-at="2022-07-21T15:39:06 IST" name="testVehicleServices" finished-at="2022-07-21T15:39:12 IST" duration-ms="6542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVehicleServices -->
+      </class> <!-- org.uvportal.tests.TestVehicleServices -->
+      <class name="org.uvportal.tests.TestPOSTProfile">
+        <test-method is-config="true" signature="init()[pri:0, instance:org.uvportal.tests.TestPOSTProfile@5965be2d]" started-at="2022-07-21T15:39:05 IST" name="init" finished-at="2022-07-21T15:39:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testPOSTProfileRequest()[pri:0, instance:org.uvportal.tests.TestPOSTProfile@5965be2d]" started-at="2022-07-21T15:39:05 IST" name="testPOSTProfileRequest" finished-at="2022-07-21T15:39:06 IST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOSTProfileRequest -->
+      </class> <!-- org.uvportal.tests.TestPOSTProfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

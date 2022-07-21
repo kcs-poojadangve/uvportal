@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.uvportal.tests.TestPOSTProfile"/>
+      <class name="org.uvportal.tests.TestGETProfile"/>
+      <class name="org.uvportal.tests.TestVehicleServices"/>
+      <class name="org.uvportal.tests.TestACCESSTOKEN"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

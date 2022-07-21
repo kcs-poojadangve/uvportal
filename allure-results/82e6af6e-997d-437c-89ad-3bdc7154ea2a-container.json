@@ -1,0 +1,1 @@
+{"uuid":"82e6af6e-997d-437c-89ad-3bdc7154ea2a","name":"org.uvportal.tests.TestVehicleServices","children":["7f88734d-69fd-4c1c-baa3-ee86a50f4ec6"],"befores":[{"name":"init","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1658398146180,"stop":1658398146181}],"afters":[],"links":[],"start":1658398138040,"stop":1658398152771}
