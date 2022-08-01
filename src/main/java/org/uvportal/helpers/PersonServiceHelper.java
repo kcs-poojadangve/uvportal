@@ -2,6 +2,10 @@ package org.uvportal.helpers;
 
 import static io.restassured.RestAssured.given;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import org.apache.log4j.PropertyConfigurator;
 import org.uvportal.constants.EndPoints;
 import org.uvportal.model.PostalAddress;
 import org.uvportal.model.Profile;
@@ -12,21 +16,25 @@ import io.restassured.RestAssured;
 import io.restassured.filter.session.SessionFilter;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
 
 public class PersonServiceHelper {
 
 	public static String token;
+	public Logger log;
 
 	private static final String Base_URL = ConfigManager.getInstance().getString("base_url");
 
 	public PersonServiceHelper() {
 		RestAssured.baseURI = Base_URL;
 		RestAssured.useRelaxedHTTPSValidation();
+		log = Logger.getLogger("RestAPI");
+		PropertyConfigurator.configure("C:\\Users\\pooja.dangve\\eclipse-workspace\\apidemo\\resources\\log4j.properties");
+		log.setLevel(Level.ALL);
 
 	}
 
 	public String getAccessToken() {
+		log.info("---- GET ACCESS TOken-------");
 		SessionFilter session = new SessionFilter();
 
 		String response = given().log().all().filter(session).when().get(EndPoints.GET_ACCESS_TOKEN).then().log().all()
@@ -38,6 +46,8 @@ public class PersonServiceHelper {
 	}
 
 	public String addProfile() {
+		
+		log.info("------POSTRequest------");
 
 		// PersonServiceHelper ps = new PersonServiceHelper();
 
@@ -102,6 +112,8 @@ public class PersonServiceHelper {
 	}
 
 	public String getProfile() {
+		
+		log.info("-----GET REquest-------");
 		// PersonServiceHelper ps = new PersonServiceHelper();
 		// ps.getAccessToken();
 
@@ -126,6 +138,8 @@ public class PersonServiceHelper {
 	
 	public String updateProfile()
 	{
+		
+		log.info("--------UPDATE REQUEST------- ");
 		Profile profile = new Profile();
 
 		profile.setSAPNumber("1222");

@@ -1,0 +1,1 @@
+{"uuid":"e06d64bf-2a4b-4afa-a25c-3ea2f23c8efd","name":"org.uvportal.tests.TestGETProfile","children":["78a1e6ff-5e37-493d-8d87-d86964cdb03a"],"befores":[{"name":"init","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1659330726417,"stop":1659330726417}],"afters":[],"links":[],"start":1659330715997,"stop":1659330729736}
